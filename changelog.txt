@@ -1,0 +1,7 @@
+Changelog for VeroCrud
+
+Version:
+---------
+    0.4.0: Basic build. Everything works, just waiting to
+            use it in some real world scenarios before
+            giving it 1.0 status
