@@ -1,2 +1,3 @@
 # so we're not reuploading all our modules
 node_modules*
+tester.*
