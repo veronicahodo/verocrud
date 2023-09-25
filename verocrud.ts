@@ -4,7 +4,7 @@
   A CRUD based module for me to use to do my various
   basic database stuff.
 
-  Version 0.5.0 - last updated 2023-09-22
+  Version 0.5.1 - last updated 2023-09-25
 */
 import * as mysql from "mysql2/promise";
 
@@ -130,7 +130,7 @@ class VeroCrud {
       const [rows] = await connection.query(sql);
       if (rows.length > 0) {
         console.log(rows);
-        return rows[0];
+        return rows;
       } else {
         return null;
       }

@@ -2,9 +2,10 @@ Changelog for VeroCrud
 
 Version:
 ---------
-    0.5.0: Unfucked up where I was passing an array of objects to 
-            build the sql update/insert strings when a simple object
-            would work.
-    0.4.0: Basic build. Everything works, just waiting to
-            use it in some real world scenarios before
-            giving it 1.0 status
+        0.5.1: Made read() return more than one line
+        0.5.0: Unfucked up where I was passing an array of objects to 
+                build the sql update/insert strings when a simple object
+                would work.
+        0.4.0: Basic build. Everything works, just waiting to
+                use it in some real world scenarios before
+                giving it 1.0 status
